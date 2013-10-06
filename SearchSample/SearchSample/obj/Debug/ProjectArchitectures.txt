@@ -1,1 +1,1 @@
-C:\Infusion\POC\SearchSample\SearchSample\SearchSample.csproj;neutral
+C:\Development\Documents\BlogSeries\SearchSample\SearchSample\SearchSample.csproj;neutral

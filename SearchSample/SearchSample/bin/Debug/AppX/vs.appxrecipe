@@ -13,52 +13,52 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Infusion\POC\SearchSample\SearchSample\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Development\Documents\BlogSeries\SearchSample\SearchSample\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-18T01:57:45.161</Modified>
+      <Modified>2013-10-06T16:43:20.987</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Infusion\POC\SearchSample\SearchSample\bin\Debug\SearchSample.exe">
+    <AppxPackagedFile Include="C:\Development\Documents\BlogSeries\SearchSample\SearchSample\bin\Debug\SearchSample.exe">
       <PackagePath>SearchSample.exe</PackagePath>
-      <Modified>2013-07-18T03:32:28.903</Modified>
+      <Modified>2013-10-06T16:43:20.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Infusion\POC\SearchSample\SearchSample\bin\Debug\SearchSample.pdb">
+    <AppxPackagedFile Include="C:\Development\Documents\BlogSeries\SearchSample\SearchSample\bin\Debug\SearchSample.pdb">
       <PackagePath>SearchSample.pdb</PackagePath>
-      <Modified>2013-07-18T03:32:28.874</Modified>
+      <Modified>2013-10-06T16:43:20.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Infusion\POC\SearchSample\SearchSample\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Development\Documents\BlogSeries\SearchSample\SearchSample\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-18T23:13:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Infusion\POC\SearchSample\SearchSample\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Development\Documents\BlogSeries\SearchSample\SearchSample\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-18T23:13:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Infusion\POC\SearchSample\SearchSample\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Development\Documents\BlogSeries\SearchSample\SearchSample\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-18T23:13:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Infusion\POC\SearchSample\SearchSample\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Development\Documents\BlogSeries\SearchSample\SearchSample\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-04-18T23:13:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Infusion\POC\SearchSample\SearchSample\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Development\Documents\BlogSeries\SearchSample\SearchSample\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2013-07-18T01:57:44.706</Modified>
+      <Modified>2013-10-06T16:43:20.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Infusion\POC\SearchSample\SearchSample\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Development\Documents\BlogSeries\SearchSample\SearchSample\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2013-07-18T03:00:42.525</Modified>
+      <Modified>2013-10-06T16:43:20.526</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Infusion\POC\SearchSample\SearchSample\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Development\Documents\BlogSeries\SearchSample\SearchSample\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-07-18T01:57:45.028</Modified>
+      <Modified>2013-10-06T16:43:20.841</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -17,7 +17,7 @@
                                                                      />
             
             <TextBlock Margin="0,45,0,0">Results</TextBlock>
-            <GridView ItemsSource="{Binding searchResults}"></GridView>
+            <GridView Width="500"  ItemsSource="{Binding searchResults}"></GridView>
             <Button x:ConnectionId='2'                     >Clear History</Button>
         </StackPanel>
     </Grid>
