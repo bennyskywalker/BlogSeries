@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="SearchSample.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SearchSample">
+
+</Application>

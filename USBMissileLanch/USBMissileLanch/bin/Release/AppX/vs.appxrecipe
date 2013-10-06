@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BENPRO</Machine>
+    <WindowsUser>btsui</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>6838A68B80E64836233A8842661B2A869BC6266A56FC0190848C2EC0BFC399DC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>5a7be9b6-6dbf-40e2-b058-2d37eda347c9_1.0.0.0_neutral__1zkkza0td5y80</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>5a7be9b6-6dbf-40e2-b058-2d37eda347c9_1zkkza0td5y80!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>5a7be9b6-6dbf-40e2-b058-2d37eda347c9</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=btsui</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Infusion\POC\USBMissileLanch\USBMissileLanch\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T18:33:24.241</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLanch\USBMissileLanch\bin\Release\USBMissileLanch.exe">
+      <PackagePath>USBMissileLanch.exe</PackagePath>
+      <Modified>2013-07-22T18:33:24.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLanch\USBMissileLanch\bin\Release\USBMissileLanch.pdb">
+      <PackagePath>USBMissileLanch.pdb</PackagePath>
+      <Modified>2013-07-22T18:33:24.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLanch\USBMissileLanch\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-19T02:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLanch\USBMissileLanch\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-19T02:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLanch\USBMissileLanch\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-19T02:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLanch\USBMissileLanch\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-19T02:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLanch\USBMissileLanch\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2013-07-05T22:03:47.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLanch\USBMissileLanch\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2013-07-22T18:33:23.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLanch\USBMissileLanch\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-07-22T18:33:24.186</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

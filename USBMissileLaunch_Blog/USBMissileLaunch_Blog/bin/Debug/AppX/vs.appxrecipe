@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BENPRO</Machine>
+    <WindowsUser>btsui</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>96061D750F10DF6F59F9A050C48FDA070BAE457B34AB087497B69829BDEB3C84</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>ba48c640-5a43-4b3f-b0e4-9f53f0e31c28_1.0.0.0_neutral__1zkkza0td5y80</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>ba48c640-5a43-4b3f-b0e4-9f53f0e31c28_1zkkza0td5y80!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>ba48c640-5a43-4b3f-b0e4-9f53f0e31c28</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=btsui</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Infusion\POC\USBMissileLaunch_Blog\USBMissileLaunch_Blog\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-06T15:27:47.325</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLaunch_Blog\USBMissileLaunch_Blog\bin\Debug\USBMissileLaunch_Blog.exe">
+      <PackagePath>USBMissileLaunch_Blog.exe</PackagePath>
+      <Modified>2013-10-06T15:27:46.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLaunch_Blog\USBMissileLaunch_Blog\bin\Debug\USBMissileLaunch_Blog.pdb">
+      <PackagePath>USBMissileLaunch_Blog.pdb</PackagePath>
+      <Modified>2013-10-06T15:27:46.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLaunch_Blog\USBMissileLaunch_Blog\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-18T23:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLaunch_Blog\USBMissileLaunch_Blog\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-18T23:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLaunch_Blog\USBMissileLaunch_Blog\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-18T23:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLaunch_Blog\USBMissileLaunch_Blog\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-18T23:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLaunch_Blog\USBMissileLaunch_Blog\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2013-10-06T15:27:46.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLaunch_Blog\USBMissileLaunch_Blog\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2013-10-06T15:27:46.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\USBMissileLaunch_Blog\USBMissileLaunch_Blog\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-10-06T15:27:47.136</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BENPRO</Machine>
+    <WindowsUser>btsui</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>2372A245816889405F2D81633DD6320DF3F008B0742B069BB63163E0BAD5936E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0f39db3f-a6de-4924-af4e-43b1ab5e8749_1.0.0.0_neutral__1zkkza0td5y80</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0f39db3f-a6de-4924-af4e-43b1ab5e8749_1zkkza0td5y80!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0f39db3f-a6de-4924-af4e-43b1ab5e8749</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=btsui</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Infusion\POC\SpheroPOC\SpheroPOC\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-06T04:13:20.184</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Infusion\POC\SpheroPOC\SpheroPOC\bin\Debug\SpheroPOC.exe">
+      <PackagePath>SpheroPOC.exe</PackagePath>
+      <Modified>2013-07-09T14:47:05.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\SpheroPOC\SpheroPOC\bin\Debug\SpheroPOC.pdb">
+      <PackagePath>SpheroPOC.pdb</PackagePath>
+      <Modified>2013-07-09T14:47:05.691</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\SpheroPOC\SpheroPOC\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-18T23:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\SpheroPOC\SpheroPOC\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-18T23:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\SpheroPOC\SpheroPOC\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-18T23:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\SpheroPOC\SpheroPOC\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-18T23:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\SpheroPOC\SpheroPOC\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2013-07-06T04:13:19.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\SpheroPOC\SpheroPOC\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2013-07-06T04:13:19.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Infusion\POC\SpheroPOC\SpheroPOC\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-07-06T04:13:20.085</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
