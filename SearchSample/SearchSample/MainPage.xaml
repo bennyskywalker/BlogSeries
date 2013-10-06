@@ -18,7 +18,7 @@
             
             
             <TextBlock Margin="0,45,0,0">Results</TextBlock>
-            <GridView Width="500"  ItemsSource="{Binding searchResults}"></GridView>
+            <GridView Width="300" ItemsSource="{Binding searchResults}"></GridView>
             <Button Click="ClearHistory">Clear History</Button>
         </StackPanel>
     </Grid>
