@@ -16,6 +16,7 @@
                        SuggestionsRequested="SearchBoxEventsSuggestionsRequested" 
                        QuerySubmitted="SearchBoxEventsQuerySubmitted"/>
             
+            
             <TextBlock Margin="0,45,0,0">Results</TextBlock>
             <GridView Width="500"  ItemsSource="{Binding searchResults}"></GridView>
             <Button Click="ClearHistory">Clear History</Button>
