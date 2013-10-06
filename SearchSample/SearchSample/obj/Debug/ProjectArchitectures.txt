@@ -1,1 +1,0 @@
-C:\Development\Documents\BlogSeries\SearchSample\SearchSample\SearchSample.csproj;neutral
