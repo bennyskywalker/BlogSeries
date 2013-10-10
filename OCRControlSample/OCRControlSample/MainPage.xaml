@@ -1,0 +1,30 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OCRControlSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Ocr="using:Bing.Ocr"
+    x:Class="OCRControlSample.MainPage"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid Width="500" Height="500" HorizontalAlignment="Left">
+            <Ocr:OcrControl x:Name="OCR" 
+                            Width="500"
+                            Height="500"
+                            HorizontalAlignment="Left" 
+                            VerticalAlignment="Top">
+                <Ocr:OcrControl.InstructionOverlay>
+                    <TextBlock Text="Click or tap to capture image." 
+                               IsHitTestVisible="False" />
+                </Ocr:OcrControl.InstructionOverlay>
+
+            </Ocr:OcrControl>
+        </Grid>
+        <Grid Width="500" Height="500" HorizontalAlignment="Right">
+            <TextBox x:Name="tbResults" Width="500" TextWrapping="Wrap"></TextBox>
+        </Grid>
+        
+    </Grid>
+</Page>

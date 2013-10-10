@@ -5,9 +5,12 @@
     xmlns:local="using:BingAsAPI"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+    xmlns:bm="using:Bing.Maps"
+    
     mc:Ignorable="d">
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-
+        <bm:Map Credentials="Ahzq3RuWXD1WggUSEr_oIoJw0bgFFzja6DO6I4hIA5p8mSYDRc3DBi9_jdrDFtmF" x:Name="myMap"></bm:Map>
     </Grid>
 </Page>

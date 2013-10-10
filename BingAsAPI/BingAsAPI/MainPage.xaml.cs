@@ -17,6 +17,9 @@ using Windows.UI.Xaml.Navigation;
 
 namespace BingAsAPI
 {
+    //Bing Key
+    //Ahzq3RuWXD1WggUSEr_oIoJw0bgFFzja6DO6I4hIA5p8mSYDRc3DBi9_jdrDFtmF 
+
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
