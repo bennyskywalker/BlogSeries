@@ -23,7 +23,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Development\Documents\BlogSeries\USBMissileLanch\USBMissileLanch\bin\Debug\USBMissileLanch.exe">
       <PackagePath>USBMissileLanch.exe</PackagePath>
-      <Modified>2013-11-01T03:37:11.947</Modified>
+      <Modified>2013-11-01T05:27:37.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Development\Documents\BlogSeries\USBMissileLanch\USBMissileLanch\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>

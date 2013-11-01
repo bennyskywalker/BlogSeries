@@ -8,6 +8,17 @@ namespace USBMissileLanch
 {
     public class DCUSBDevice: ILauncherDevice
     {
+        private static readonly byte[] CMD = { 0, 0, 0, 0, 0, 0, 0, 0, 2 };
+        private static readonly byte[] UP = { 0, 2, 2, 0, 0, 0, 0, 0, 0 };
+        private static readonly byte[] DOWN = { 0, 2, 1, 0, 0, 0, 0, 0, 0 };
+        private static readonly byte[] LEFT = { 0, 2, 4, 0, 0, 0, 0, 0, 0 };
+        private static readonly byte[] RIGHT = { 0, 2, 8, 0, 0, 0, 0, 0, 0 };
+        private static readonly byte[] FIRE = { 0, 2, 16, 0, 0, 0, 0, 0, 0 };
+        private static readonly byte[] STOP = { 0, 2, 32, 0, 0, 0, 0, 0, 0 };
+        private static readonly byte[] GetStatus = { 0, 1, 0, 0, 0, 0, 0, 0, 0 };
+        private static readonly byte[] LedOn = { 0, 3, 1, 0, 0, 0, 0, 0, 0 };
+        private static readonly byte[] LedOff = { 0, 3, 0, 0, 0, 0, 0, 0, 0 };
+
         public string ModelName
         {
             get 
@@ -48,52 +59,52 @@ namespace USBMissileLanch
             }
         }
 
-        public byte Down
+        public byte[] Down
         {
             get 
             {
-                return 0x02; 
+                return DOWN;
             }
         }
 
-        public byte Up
+        public byte[] Up
         {
             get 
             {
-                return 0x01;
+                return UP;
             }
         }
 
-        public byte Left
+        public byte[] Left
         {
             get
             {
-                return 0x04;
+                return LEFT;
             }
         }
 
-        public byte Right
+        public byte[] Right
         {
             get
             {
-                return 0x08;
+                return RIGHT;
             }
         }
 
-        public ushort Stop
+        public byte[] Stop
         {
             get
             {
-                return 0x20;
+                return STOP;
                 //return 0x00;
             }
         }
 
-        public ushort Fire
+        public byte[] Fire
         {
             get
             {
-                return 0x10;
+                return FIRE;
             }
         }
 
@@ -145,7 +156,7 @@ namespace USBMissileLanch
             }
         }
 
-        public ushort CreateCommand(ushort command)
+        public byte[] CreateCommand(byte[] command)
         {
             return command;
         }

@@ -36,32 +36,32 @@ namespace USBMissileLanch
         /// <summary>
         /// Command to move down
         /// </summary>
-        byte Down { get; }
+        byte[] Down { get; }
 
         /// <summary>
         /// Command to move up
         /// </summary>
-        byte Up { get; }
+        byte[] Up { get; }
 
         /// <summary>
         /// Command to turn left
         /// </summary>
-        byte Left { get; }
+        byte[] Left { get; }
 
         /// <summary>
         /// Command to turn right
         /// </summary>
-        byte Right { get; }
+        byte[] Right { get; }
 
         /// <summary>
         /// Command to stop moving
         /// </summary>
-        ushort Stop { get; }
+        byte[] Stop { get; }
 
         /// <summary>
         /// Command to fire a missile
         /// </summary>
-        ushort Fire { get; }
+        byte[] Fire { get; }
 
         /// <summary>
         /// Minimum number of shots possible (usually 1)
@@ -98,7 +98,7 @@ namespace USBMissileLanch
         /// </summary>
         /// <param name="command">The command to send (move, fire etc.)</param>
         /// <returns>byte array to send to the launcher</returns>
-        ushort CreateCommand(ushort command);
+        byte[] CreateCommand(byte[] command);
  
     }
 }

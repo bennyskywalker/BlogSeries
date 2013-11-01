@@ -62,7 +62,7 @@ namespace USBMissileLanch
                     }
 
                     //??? why are we sending this?
-                    SendData(0x40);
+                    //SendData(0x40);
                 }
                 else
                 {
@@ -108,46 +108,20 @@ namespace USBMissileLanch
             }
         }
 
-        public async void SendData(ushort data)
+        public async void SendData(byte[] data)
         {
-            //device.Write(data);
-            ushort reportId = 0x00;
-            var outReport = hidDevice.CreateOutputReport(reportId);
-
-            var dataWriter = new DataWriter();
-            dataWriter.WriteByte((Byte)reportId);
-            dataWriter.WriteByte((Byte)data);
-
-            IBuffer newbuf = dataWriter.DetachBuffer();
-            byte[] newbufArray = WindowsRuntimeBufferExtensions.ToArray(newbuf);
+            var outReport = hidDevice.CreateOutputReport();
+            outReport.Data = data.AsBuffer();
 
             try
             {
-                byte[] array = WindowsRuntimeBufferExtensions.ToArray(outReport.Data);
-                for (int i = 0; i < array.Length && i<newbufArray.Length;i++)
-                {
-                    array[i] = newbufArray[i];
-                }
-
-                IBuffer db2 = WindowsRuntimeBufferExtensions.AsBuffer(array);
-                outReport.Data = db2;
-
-                System.Diagnostics.Debug.WriteLine("Sending:");
-                DebugBytes(new byte[] { (Byte)outReport.Id,(Byte)data });
-
-                try
-                {
-                    await hidDevice.SendOutputReportAsync(outReport);
-                }
-                catch (Exception ex)
-                {
-                    //System.Diagnostics.Debug.WriteLine("Exception sending Output Report:" + ex.ToString());
-                }
+                await hidDevice.SendOutputReportAsync(outReport);
             }
-            catch(Exception ex2)
+            catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine("Exception sending Output Report:" + ex2.ToString());
+                //System.Diagnostics.Debug.WriteLine("Exception sending Output Report:" + ex.ToString());
             }
+          
             return;
         }
 
@@ -155,7 +129,7 @@ namespace USBMissileLanch
         /// This is a launcher command - made up of 2 send data pieces
         /// </summary>
         /// <param name="data"></param>
-        public void SendCommand(ushort data)
+        public void SendCommand(byte[] data)
         {
             SendData(data);
         }

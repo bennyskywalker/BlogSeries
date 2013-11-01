@@ -71,13 +71,13 @@ namespace USBMissileLanch
             }
         }
 
-        private void SendCommand(ushort command)
+        private void SendCommand(byte[] command)
         {
             var data = launcherDevice.CreateCommand(command);
             usbComs.SendCommand(data);
         }
 
-        private void SendMoveCommand(byte command, int milliseconds)
+        private void SendMoveCommand(byte[] command, int milliseconds)
         {
             if(usbComs.IsReady)
             {
