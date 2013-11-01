@@ -6,3 +6,7 @@ BingAsAPI/BingAsAPI/bin/
 BingAsAPI/BingAsAPI/obj/
 OCRControlSample/OCRControlSample/bin/
 OCRControlSample/OCRControlSample/obj/
+*.wmv
+*.docx
+*.suo
+*.exe

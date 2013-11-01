@@ -19,11 +19,12 @@ namespace USBMissileLanch
         private bool isRegisteredForInputReportsEvent = false;
         
 
-        public async void Initialize(ushort usageId, ushort usagePage, ushort vendorId, ushort deviceId)
+        public async void Initialize(int usageId, int usagePage, int vendorId, int deviceId)
         {
             //Create AQS - Advanced Query Syntax String.
             //This is used to search for a device.
-            string aqs = HidDevice.GetDeviceSelector(usagePage, usageId);//, vendorId, deviceId);
+            string aqs = HidDevice.GetDeviceSelector((ushort)usagePage, (ushort)usageId, (ushort)vendorId, (ushort)deviceId);
+//            string aqs = HidDevice.GetDeviceSelector(1, 16, 8483, 4112);
 
             //Find a device with a specific AQS.
             //Leaving out the aqs will find all HID and USB devices

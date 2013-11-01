@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" 
+         xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
   <Identity Name="5a7be9b6-6dbf-40e2-b058-2d37eda347c9" Publisher="CN=btsui" Version="1.0.0.0" />
   <Properties>
     <DisplayName>USBMissileLanch</DisplayName>
@@ -22,8 +23,8 @@
   </Applications>
   <Capabilities>
     <m2:DeviceCapability Name="humaninterfacedevice">
-      <m2:Device Id="vidpid:1941 8021">
-        <m2:Function Type="usage:FFA0 0001" />
+      <m2:Device Id="any">
+        <m2:Function Type="usage:0001 0010" />
       </m2:Device>
     </m2:DeviceCapability>
   </Capabilities>

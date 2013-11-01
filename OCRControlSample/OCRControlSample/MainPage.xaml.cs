@@ -54,6 +54,7 @@ namespace OCRControlSample
             if (e.Result.Lines.Count == 0)
             {
                 tbResults.Text = "No text found.";
+                await OCR.StartPreviewAsync(null);
                 return;
             }
 

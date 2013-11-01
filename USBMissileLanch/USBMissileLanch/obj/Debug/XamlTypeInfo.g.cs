@@ -62,7 +62,7 @@ namespace USBMissileLanch.USBMissileLanch_XamlTypeInfo
             if (xamlType != null)
             {
                 _xamlTypeCacheByName.Add(xamlType.FullName, xamlType);
-                _xamlTypeCacheByType.Add(type, xamlType);
+                _xamlTypeCacheByType.Add(xamlType.UnderlyingType, xamlType);
             }
             return xamlType;
         }
@@ -85,7 +85,7 @@ namespace USBMissileLanch.USBMissileLanch_XamlTypeInfo
             }
             if (xamlType != null)
             {
-                _xamlTypeCacheByName.Add(typeName, xamlType);
+                _xamlTypeCacheByName.Add(xamlType.FullName, xamlType);
                 _xamlTypeCacheByType.Add(xamlType.UnderlyingType, xamlType);
             }
             return xamlType;
@@ -169,7 +169,6 @@ namespace USBMissileLanch.USBMissileLanch_XamlTypeInfo
 
         private object Activate_0_MainPage() { return new global::USBMissileLanch.MainPage(); }
 
-
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
             global::USBMissileLanch.USBMissileLanch_XamlTypeInfo.XamlSystemBaseType xamlType = null;
@@ -205,7 +204,6 @@ namespace USBMissileLanch.USBMissileLanch_XamlTypeInfo
             // No Local Properties
             return xamlMember;
         }
-
     }
 
     
@@ -241,6 +239,7 @@ namespace USBMissileLanch.USBMissileLanch_XamlTypeInfo
         virtual public bool IsDictionary { get { throw new global::System.NotImplementedException(); } }
         virtual public bool IsMarkupExtension { get { throw new global::System.NotImplementedException(); } }
         virtual public bool IsBindable { get { throw new global::System.NotImplementedException(); } }
+        virtual public bool IsReturnTypeStub { get { throw new global::System.NotImplementedException(); } }
         virtual public global::Windows.UI.Xaml.Markup.IXamlType ItemType { get { throw new global::System.NotImplementedException(); } }
         virtual public global::Windows.UI.Xaml.Markup.IXamlType KeyType { get { throw new global::System.NotImplementedException(); } }
         virtual public object ActivateInstance() { throw new global::System.NotImplementedException(); }
@@ -264,6 +263,7 @@ namespace USBMissileLanch.USBMissileLanch_XamlTypeInfo
         bool _isArray;
         bool _isMarkupExtension;
         bool _isBindable;
+        bool _isReturnTypeStub;
 
         string _contentPropertyName;
         string _itemTypeName;
@@ -287,6 +287,7 @@ namespace USBMissileLanch.USBMissileLanch_XamlTypeInfo
         override public bool IsDictionary { get { return (DictionaryAdd != null); } }
         override public bool IsMarkupExtension { get { return _isMarkupExtension; } }
         override public bool IsBindable { get { return _isBindable; } }
+        override public bool IsReturnTypeStub { get { return _isReturnTypeStub; } }
 
         override public global::Windows.UI.Xaml.Markup.IXamlMember ContentProperty
         {
@@ -413,6 +414,11 @@ namespace USBMissileLanch.USBMissileLanch_XamlTypeInfo
         public void SetIsBindable()
         {
             _isBindable = true;
+        }
+
+        public void SetIsReturnTypeStub()
+        {
+            _isReturnTypeStub = true;
         }
 
         public void SetItemTypeName(string itemTypeName)

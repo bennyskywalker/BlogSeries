@@ -20,7 +20,7 @@ namespace USBMissileLanch
         {
             get
             {
-                return 0xFFA0;
+                return 1;
             }
         }
 
@@ -28,7 +28,7 @@ namespace USBMissileLanch
         {
             get
             {
-                return 0x0001;
+                return 0x0010;
             } 
         }
 
@@ -36,7 +36,7 @@ namespace USBMissileLanch
         {
             get 
             {
-                return 0x1941;
+                return 8483;
             }
         }
 
@@ -44,7 +44,7 @@ namespace USBMissileLanch
         {
             get 
             {
-                return 0x8021;
+                return 4112;
             }
         }
 

@@ -24,11 +24,12 @@ using Windows.UI.Xaml.Navigation;
 namespace USBMissileLanch
 {
     public class Device
-    {
-        public const UInt16 Vid = 0x2123;
-        public const UInt16 Pid = 0x1010;
-        public const UInt16 UsagePage = 0x03;
-        public const UInt16 UsageId = 0xFF;
+    { 
+        public const int Vid = 8483;
+        public const int Pid = 4112;
+
+        public const int UsagePage = 1;
+        public const int UsageId = 16;
     }
 
     /// <summary>
